@@ -7,7 +7,7 @@ include('includes/config.php');
 <html>
 
 <head>
-    <title>TMS | Package List</title>
+    <title>TourEase | Package List</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><!--bootstrap css-->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
@@ -48,8 +48,6 @@ include('includes/config.php');
     <style>
         /* Banner */
         .banner-3 {
-            background: url(images/banner.jpg) no-repeat center;
-            background-size: cover;
             padding: 10px 0;
             color: #fff;
             text-align: center;
