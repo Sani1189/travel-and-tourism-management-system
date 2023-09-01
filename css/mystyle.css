@@ -1,0 +1,292 @@
+/* Reset some default styling */
+body, h1, h2, h3, h4, p, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Top header styles */
+.top-header {
+  background-color: #333!important;
+  color: #fff;
+}
+.top-header .container {
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.top-header-left, .top-header-right {
+  display: flex;
+  align-items: center;
+}
+.top-header-left ul li, .top-header-right .ul li {
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+.top-header-left .icon, .top-header-right .icon {
+  margin-right: 20px;
+}
+
+.top-header-right .wel, .top-header-right .sig, .top-header-right .sigi {
+  color: #fff!important;
+  margin-left: 10px;
+}
+
+
+/* Package Styles */
+.package-list {
+  text-align: center;
+}
+
+.package {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.package-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.package-details h4 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.package-details h6 {
+  color: #777;
+}
+
+.package-details p {
+  color: #555;
+}
+
+.package-details h5 {
+  color: #e74c3c;
+  margin-top: 10px;
+}
+
+.view-details {
+  display: inline-block;
+  padding: 5px 10px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+
+}
+
+.view-more {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #4b7b4b!important;
+  color: white!important;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  text-decoration: none!important;
+}
+
+
+.view-more:hover{
+  
+  background-color: #339633!important;
+  
+}
+
+
+
+
+
+
+/* Statistics Styles */
+.statistics {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.statistic {
+  text-align: center;
+  padding: 20px;
+  width: 25%;
+  float: left;
+}
+
+.stat-icon {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.stat-number h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.stat-number p {
+  margin: 0;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* services page */
+/* Services Section Styles */
+.our_services {
+  padding: 80px 0;
+  background-color: #f8f8f8;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none!important;
+  
+}
+
+.row a{
+  text-decoration: none!important;
+}
+
+.section-title {
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.section-title span {
+  display: block;
+  width: 245px;
+  height: 3px;
+  background-color: #007bff;
+  margin: 10px auto;
+}
+
+.section-title p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 20px;
+  text-decoration: none!important;
+}
+
+/* Service Card Styles */
+.service {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+
+
+.service .icon {
+  font-size: 36px;
+  color: #007bff;
+}
+
+.service h4 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.service p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.service-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .service {
+      margin-bottom: 30px;
+  }
+}
+
+
+
+/* header file/navbar item css  */
+
+ .top-header-left a{
+  text-decoration: none!important;
+  padding: 10px;
+  color: white; 
+ }
+
+
+
+.top-header-right a{
+  text-decoration: none!important;
+  background: #15bca5;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  font-weight: 600;
+  margin-left: 10px !important;
+}
+
+.top-header-right a:hover{
+  
+  background: #08dabe;
+  color: black;
+
+}
+
+
+
+
+ .top-header-left .icon{
+ margin: 0!important;
+ padding: 0!important;
+} 
+
+.top-header-right .wel{
+  background-color: #c0392b;
+  padding: 9px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+
+/* style user profile navbar */
+.container .top-header-left a{
+  text-decoration: none!important;
+  background: #043c75;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  margin-left: 20px!important;
+  margin-top: 8px!important;
+
+} 
+
+ .container .top-header-left a:hover{
+  background: #065cb2;
+} 
+
+/* main navbar */
+.navbar-nav .nav-item a{
+  font-weight: 600;
+
+}
+
+.navbar-nav .nav-item a:hover{
+color: red;
+
+}

@@ -1,0 +1,123 @@
+.pkgtype {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  margin: 20px auto;
+}
+.addsOn {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+h3 {
+  color: #333;
+}
+
+.myform {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.myform input[type="radio"] {
+  display: none;
+}
+
+.myform label {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.myform label:hover {
+  background-color: #ddd;
+}
+
+.myform input[type="radio"]:checked + label {
+  background-color: #3498db;
+  color: #fff;
+}
+
+/* ... Your existing CSS ... */
+
+/* Style for the collapsible button */
+.others {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  background-color: #fafdff;
+}
+.collapsible {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+
+  background-color: #fafdff;
+}
+
+/* Style for the plus and minus icons */
+.collapsible i {
+  font-size: 24px;
+  padding: 5px;
+}
+
+/* Style for the collapsible content (hidden by default) */
+.content {
+  display: none;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #fffcfc;
+}
+
+/* Style for the active (open) button */
+.collapsible.active {
+  background-color: #ebf0f4;
+  /* Background color for active button */
+}
+
+/* Style for the minus icon when the content is open */
+.collapsible.active i {
+  transform: rotate(180deg);
+  /* Rotate the plus icon to look like a minus */
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 80%;
+}
+
+.mapouter {
+  position: relative;
+  text-align: center;
+  align-self: center;
+  height: 200px;
+  width: 100%;
+}
+
+.succWrap{
+  background-color: aquamarine!important;
+  color: red!important;
+}
+
