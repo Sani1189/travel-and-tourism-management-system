@@ -1,5 +1,5 @@
 # TourEase
-# travel-and-tourism-management-system
+
 ## Introduction
 Welcome to TourEase, a comprehensive Tourism and Travel Management System designed to streamline your travel processes, ensuring a seamless journey for both your team and the tourists. Whether you're a travel agency or a frequent traveler, our system is designed to fit your needs.
 
@@ -10,7 +10,8 @@ https://github.com/Sani1189/travel-and-tourism-management-system
 2. Import travel.sql File that provided Github Repo.
 3. Run: http://localhost/travel-and-tour-management-system/index.php
 
-## Project Demo Video: https://drive.google.com/file/d/1XZU9O-P4QBACl4kQx4Vl6hpEc-rKg9f9/view?usp=sharing
+## Project Demo Video:
+https://drive.google.com/file/d/1XZU9O-P4QBACl4kQx4Vl6hpEc-rKg9f9/view?usp=sharing
 
 
 #Here are some screenshorts for our system
