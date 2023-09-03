@@ -1,7 +1,7 @@
 # TourEase
 
 ## Introduction
-Welcome to TourEase, a comprehensive Tourism and Travel Management System designed to streamline your travel processes, ensuring a seamless journey for both your team and the tourists. Whether you're a travel agency or a frequent traveler, our system is designed to fit your needs.
+Welcome to TourEase, a comprehensive Tourism and Travel Management System designed to streamline your travel processes, ensuring a seamless journey for both your team and the tourists. Whether you're a travel agency or a frequent traveler.
 
 ## Installation
 1. Clone the repository:
